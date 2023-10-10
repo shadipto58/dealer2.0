@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 37px 25px 35px 27px;
+}
+
+.login__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout__button {
+    width: 107px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F8F8FB;
+    color: var(--gray, #8A94A6);
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%;
+    border: none;
+    letter-spacing: 0.39px;
+    background-image: url(./images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 75px 13px;
+    padding-right: 43px;
+    padding-left: 17px;
+}
+
+.profile__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.profile__name {
+    color: var(--black, #222950);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 5px;
+}
+
+.profile__title {
+    color: var(--gray, #8A94A6);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%;
+    /* 18.72px */
+    letter-spacing: 0.42px;
+}
+
+.option__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+    margin-top: 43px;
+}
+
+.option__card {
+    width: 153px;
+    height: 129px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F8F8FB;
+    text-align: center;
+    padding-top: 21px;
+}
+
+.option__card:hover {
+    border: 1px solid rgba(0, 122, 255, 0.17);
+
+}
+
+.option__title {
+    color: #363636;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    margin-top: 14px;
+}
+
+.option__title-so {
+    color: var(--gray, #8A94A6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 5px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 39px 21px 40px;
+    background-color: red;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px -5px 50px 0px rgba(0, 45, 94, 0.12);
+}
+
+.footer__menu div svg {
+    color: red !important;
+}
+
+.active {}

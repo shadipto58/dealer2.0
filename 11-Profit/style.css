@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    padding: 37px 25px 35px 27px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+
+.navbar__title {
+    color: var(--black, #222950);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.714%;
+    letter-spacing: 0.54px;
+}
+
+.date__filter {
+    display: inline-flex;
+    height: 26px;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #F1F5F9;
+    color: #64748B;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    padding: 2px 8px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.total__sell-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    border: 1px solid seagreen;
+    padding: 30px 0 31px 27px;
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    margin-top: 49px;
+}
+
+.total__title {
+    color: var(--gray, #8A94A6);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%;
+    margin-bottom: 16px;
+}
+
+.total__ammount {
+    color: var(--black, #222950);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 133.714%;
+    /* 26.743px */
+}
+
+.total__ammount span {
+    color: #34D399;
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.714%;
+    margin-left: 4px;
+    letter-spacing: 0.3px;
+}
+
+.time__span-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 61px;
+    margin-bottom: 25px;
+}
+
+.time__span {
+    color: #64748B;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    display: inline-flex;
+    height: 26px;
+    padding: 8px;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #F1F5F9;
+}
+
+.time__span:hover {
+    color: #007AFF;
+    border: 1px solid rgba(0, 122, 255, 0.15);
+    background: rgba(0, 122, 255, 0.05);
+}
+
+/* dashboard chart */
+
+
+.dashboard__chart {
+    border-radius: 9.3px;
+    border: 0.93px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    box-shadow: 0px 18.60058px 37.20116px 0px rgba(0, 46, 97, 0.05);
+    /* padding: 25px; */
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 16px 12px 16px 12px;
+}
+
+.dashboard__chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.dasbhoard__sell {
+    color: #64748B;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 19.2px */
+}
+
+.dashboard__amount {
+    color: #0F172A;
+
+    /* Heading/H5 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 25.2px */
+    letter-spacing: 0.2px;
+}
+
+.dashboard__amount span {
+    color: #34D399;
+
+    /* body/small/medium */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 19.2px */
+    margin-left: 8px;
+}
+
+.dashboard__btn-container {
+    display: flex;
+}
+
+.dashboard__chart-btn {
+    padding: 5px 12px;
+    border-radius: 50px;
+    border: 1px solid #F1F5F9;
+    color: #64748B;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 19.2px */
+    background-color: #fff;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.dashboard__chart-btn:hover {
+    border: 1px solid rgba(0, 122, 255, 0.15);
+    background: rgba(0, 122, 255, 0.05);
+    color: #007AFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 19.2px */
+}
+
+.top__select-date {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #F1F5F9;
+    color: #64748B;
+    /* body/small/semibold */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 19.2px */
+    background: none;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 39px 21px 40px;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px -5px 50px 0px rgba(0, 45, 94, 0.12);
+}
